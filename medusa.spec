@@ -1,6 +1,6 @@
 %define	name	medusa
 %define	version	2.0
-%define	release	%mkrel 1
+%define	release	%mkrel 2
 %define _disable_ld_no_undefined 1
 %define _disable_ld_as_needed 1
 
@@ -39,7 +39,7 @@ key features of this application:
 %setup -q
 
 %build
-%configure2_5x
+%configure2_5x --with-default-mod-path=%{_libdir}/%{name}/modules
 %make
 
 
