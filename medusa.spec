@@ -1,6 +1,6 @@
 %define	name	medusa
 %define	version	2.0
-%define	release	%mkrel 3
+%define	release	%mkrel 4
 %define _disable_ld_no_undefined 1
 %define _disable_ld_as_needed 1
 
