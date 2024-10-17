@@ -10,7 +10,7 @@ Release:	%{release}
 Summary:	Medusa Parallel Network Login Auditor
 License:	GPLv2
 Group:		Monitoring
-URL:		http://www.foofus.net/jmk/medusa/medusa.html
+URL:		https://www.foofus.net/jmk/medusa/medusa.html
 Source0:	http://www.foofus.net/jmk/tools/%{name}-%{version}.tar.gz
 BuildRequires:  openssl-devel
 BuildRequires:  ssh2-devel
